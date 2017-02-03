@@ -1,0 +1,27 @@
+{
+    "name": "developeruz/easyii-rbac-module",
+    "description": "Role Base Access for EasyiiCMS",
+    "keywords": ["yii", "easyiiCMS", "CMS", "module"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elvira Sheina",
+            "email": "elleuz@gmail.com",
+            "homepage": "http://developer.uz"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "developeruz/easyii-user-module": "dev-master",
+        "developeruz/yii2-db-rbac" : "*"
+    },
+    "support": {
+        "issues": "https://github.com/developeruz/easyii-rbac-module/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "developeruz\\easyii_rbac\\": ""
+        }
+    }
+}
